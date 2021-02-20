@@ -15,4 +15,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
+<img src= "https://github.com/vagnersilvas/Maratona-discover/blob/main/interface/dev.finance.png?raw=true" width="100%">
 
