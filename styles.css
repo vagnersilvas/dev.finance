@@ -156,6 +156,8 @@ header {
 
     box-shadow: 3px 5px 8px 0px rgba(23, 74, 21, 0.85);
     
+    animation-name: cards;
+    animation-duration: 3.5s;
 }
 
 .card h3 {
@@ -178,6 +180,19 @@ header {
 .card.total {
     background: var(--green);
     color: white;
+}
+
+@keyframes cards {
+    30% {
+        background-color: rgb(4, 119, 0);
+    }
+    70% {
+        background-color: rgb(39, 177, 39);
+    }
+    100% {
+        background-color: rgb(182, 236, 182);
+    }
+    
 }
 
 /*========== table ===========*/
@@ -222,7 +237,6 @@ table tr {
 
 table tr:hover {
     opacity: 1;
-    transform: scale(1.003);
 }
 
 table tbody td {
