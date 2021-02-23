@@ -16,9 +16,9 @@ html {
 }
 
 body {
-    background: #bdbdbd;
+    background: #e0e0e0;
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    
     
 }
 
@@ -122,7 +122,7 @@ header {
     padding: 2rem 0 10rem;
     text-align: center;
     background-color: #63d471;
-    background-image: linear-gradient(90deg, #63d471 0%, #233329 74%);
+    background-image: linear-gradient(90deg, #63d4ae 0%, #284641 74%);
 
 }
 
@@ -156,8 +156,7 @@ header {
 
     box-shadow: 3px 5px 8px 0px rgba(23, 74, 21, 0.85);
     
-    animation-name: cards;
-    animation-duration: 3.5s;
+    
 }
 
 .card h3 {
@@ -182,15 +181,17 @@ header {
     color: white;
 }
 
+.card:hover {
+    animation-name: cards;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    
+}
+
 @keyframes cards {
-    30% {
-        background-color: rgb(4, 119, 0);
-    }
-    70% {
-        background-color: rgb(39, 177, 39);
-    }
+    
     100% {
-        background-color: rgb(182, 236, 182);
+        background-color: rgb(109, 236, 70);
     }
     
 }
@@ -221,7 +222,7 @@ table tbody tr td:last-child {
 }
 
 table thead th {
-    background: rgb(228, 228, 228);
+    background: rgb(255, 255, 255);
 
     font-weight: normal;
     padding: 1rem 2rem;
@@ -240,7 +241,7 @@ table tr:hover {
 }
 
 table tbody td {
-    background-color: hsl(98, 38%, 84%);
+    background-color: hsl(99, 88%, 90%);
 
     padding: 1rem 2rem;
 
