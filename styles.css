@@ -294,6 +294,11 @@ td.expensive {
     max-width: 500px;
     border-radius: 0.3rem;
 }
+#description ,#amount, #date:focus{
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
 
 /*========== form ===========*/
 
